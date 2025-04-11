@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,17 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+                // EcoSynth custom colors
+                eco: {
+                    'green-dark': '#1E5631',
+                    'green-medium': '#2E7D32',
+                    'green-light': '#4CAF50',
+                    'brown': '#795548',
+                    'beige': '#F5F5DC',
+                    'blue': '#2196F3',
+                    'teal': '#009688'
+                }
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -84,12 +95,37 @@ export default {
 					to: {
 						height: '0'
 					}
-				}
+				},
+                'fade-in': {
+                    '0%': {
+                        opacity: '0',
+                        transform: 'translateY(10px)'
+                    },
+                    '100%': {
+                        opacity: '1',
+                        transform: 'translateY(0)'
+                    }
+                },
+                'leaf-sway': {
+                    '0%, 100%': {
+                        transform: 'rotate(-3deg)'
+                    },
+                    '50%': {
+                        transform: 'rotate(3deg)'
+                    }
+                }
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
-			}
+				'accordion-up': 'accordion-up 0.2s ease-out',
+                'fade-in': 'fade-in 0.5s ease-out forwards',
+                'leaf-sway': 'leaf-sway 5s ease-in-out infinite'
+			},
+            backgroundImage: {
+                'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+                'eco-gradient': 'linear-gradient(135deg, #1E5631 0%, #4CAF50 100%)',
+                'hero-pattern': "url('https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2600&q=80')"
+            }
 		}
 	},
 	plugins: [require("tailwindcss-animate")],
