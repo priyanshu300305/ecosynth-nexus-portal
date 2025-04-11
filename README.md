@@ -53,7 +53,15 @@ This project is built with:
 - React
 - shadcn-ui
 - Tailwind CSS
+- ## How can I deploy this project?
 
+Simply open (https://lovable.dev/projects/63e36586-47ff-4223-994c-56cb838c047b) and click on Share -> Publish.
+
+This project is deployed on vercel.
+
+## Can I connect a custom domain to my project?
+
+Yes it is!
 
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
