@@ -2,7 +2,7 @@
 
 ## Project info
 
-**URL**: https://ecosynth-nexus-portal-git-main-priyanshu300305s-projects.vercel.app/
+**URL**: https://lovable.dev/projects/63e36586-47ff-4223-994c-56cb838c047b
 
 ## How can I edit this code?
 
