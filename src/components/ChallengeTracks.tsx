@@ -1,7 +1,6 @@
-
 import React, { useState } from 'react';
 import { 
-  Eye, MapPin, Tree, Users, Database, 
+  Eye, MapPin, TreePine, Users, Database, 
   ChevronDown, ChevronUp, ExternalLink 
 } from 'lucide-react';
 import { 
@@ -63,7 +62,7 @@ const ChallengeTracks = () => {
       id: 'ai-forester',
       title: 'Track 3: AI Forester',
       description: 'Build a reforestation recommendation engine that identifies optimal species, planting strategies, and maintenance protocols based on local conditions and climate projections.',
-      icon: <Tree className="h-10 w-10 text-eco-green-medium" />,
+      icon: <TreePine className="h-10 w-10 text-eco-green-medium" />,
       bonusTasks: [
         'Incorporate indigenous knowledge and practices',
         'Model fire resistance and climate adaptability',
