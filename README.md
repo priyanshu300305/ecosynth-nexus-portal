@@ -2,7 +2,7 @@
 
 ## Project info
 
-**URL**: https://ecosynth-nexus-git-main-priyanshu300305s-projects.vercel.app/
+**URL**: https://ecosynth-nexus.vercel.app/
 
 ## How can I edit this code?
 
